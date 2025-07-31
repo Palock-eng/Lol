@@ -1,1 +1,109 @@
-# Lol
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="resource/img/logo.png" type="image/gif" sizes="16x16" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(to right, skyblue, #e0f7fa);
+      min-height: 100vh;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .logo-container img {
+      width: 300px;
+      height: 300px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      gap: 25px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      color: #333;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      border: 5px solid black;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      border-color: cyan;
+    }
+
+    .card h2 {
+      margin: 0 0 12px 0;
+      font-size: 1.8em;
+      color: deepskyblue;
+    }
+
+    .card p {
+      margin: 0;
+      color: black;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Logo centered at the top -->
+  <div class="logo-container">
+    <img src="5460c87d-e476-4b82-8f0f-ce3174df76b7.png" alt="Palock's Art Gallery Logo" />
+  </div>
+
+  <main>
+    <section class="grid">
+      <a href="jj.html" class="card">
+        <h2>Create an Account &rarr;</h2>
+        <p>Click on it to sign in</p>
+      </a>
+
+      <a href="f.html" class="card">
+        <h2>Paintings &rarr;</h2>
+        <p>Click on it to see beautiful paintings.</p>
+      </a>
+
+      <a href="about.html" class="card">
+        <h2>About Palock &rarr;</h2>
+        <p>Artist</p>
+      </a>
+
+      <a href="hh.html" class="card">
+        <h2>Date & Time &rarr;</h2>
+        <p>Click on it to see current date and time</p>
+      </a>
+    </section>
+  </main>
+
+</body>
+</html>
